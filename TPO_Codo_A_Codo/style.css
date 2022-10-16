@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+ 
+/* 62.5 % eqivala 10 px */
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: green;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+body {
+    background-color:darkgreen
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+ol {
+    font-size: x-large;
+}
+
+ul {
+    font-size: x-large;
+}
+
+i{
+    font-size: x-large;
+}
+
+.nav{
+    display: inline-block;
+    background-color: rgba(161, 140, 243, 0.837);
+    color:rgb(22, 15, 104);
+    padding: 5px;
+    border-radius: 15px;
+    border: solid;
+    width: 75px;
+    height: 15px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;  
+}
+
+.title{
+    color:black;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+label, input {
+    font-size: 18px
+  }
+
+input[type="text"], input[type="number"],  input[type="email"], input[type="password"], input[type="date"],
+input[type="comntario"],input [type="radio"]  input[type="checbox"] {
+    width: 15%;
+    padding: 2px 1px;
+    margin: 1px;
+    display: inline-block;
+    border: solid;
+    border-radius: 1px;
+    border: black;
+    box-sizing: border-box;
+    background-color: white
+}
