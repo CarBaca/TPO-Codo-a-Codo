@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1977d5c537.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <main>
+                        <!-- Formulario con un mail asosciado -->
+        <h3>Formulario de Registro Para Asociarce</h3>
+        <form  action="https://formspree.io/f/mrgdboeq"  method="POST">
+
+            <label>Nombre:
+                <input  type="text"name="nombre" placeholder="Nombre aquí.." required>
+            </label>
+            
+            <br><br>
+    
+            <label>Apellido:
+                <input type="text" name="apellido" placeholder="Apellido aquí.." required>
+            </label>
+        
+            <br><br>
+    
+            <label>Dirección:
+                <input type="text" name="dirección" placeholder="Dirección aquí.." required>
+            </label>
+
+            <br><br>
+
+            <label>Ciudad:
+                <input type="text" name="ciudad" value="" placeholder="Ciudad de residencia aquí.." required>
+            </label>
+            
+            <br><br>
+    
+            <label>Telefono:
+                <input type="number" name="telefono" placeholder="Teléfono o celular aquí.." required>
+            </label>
+
+            <br><br>
+
+            <label>Mail:
+                <input type="email" name="email" placeholder="Email aquí.." required>
+            </label>
+
+            <br><br>
+ 
+            <label>Código Postal:
+                <input type="number" name="codigopostal" placeholder="Código Postal aquí.." required>
+            </label>
+
+            <br><br>
+    
+            <label>Fecha de Nacimiento (mm/dd/yyyy):
+                <input type="date" name="nacimiento" required>
+            </label>
+            
+            <br><br>
+    
+            <label>Pronombre preferido:
+                <input type="radio" name="opcion" value="Él">Él
+                <input type="radio" name="opcion" value="Ella">Ella
+                <input type="radio" name="opcion" value="otro">Otro
+            </label>
+            
+            <br><br>
+
+            <label>Ingresar Pronombre:
+                <input type="text" name="pronombre" placeholder="Pronombre preferido aquí.." required>
+            </label>
+
+            <br><br>
+
+            <label>Destino de interés
+                <input type="checkbox" name="preferencia" value="Bariloche">Bariloche
+                <input type="checkbox" name="preferencia" value="Villa La Angostura">Villa La Angostura
+                <input type="checkbox" name="preferencia" value="Ushuaia">Ushuaia
+                <input type="checkbox" name="preferencia" value="Cataratas del Iguazú">Cataratas del Iguazú
+            </label>
+
+            <br><br>
+
+            <label>Transporte Preferido 
+                <input type="checkbox" name="preferencia" value="Avión">Avión
+                <input type="checkbox" name="preferencia" value="Crucero">Crucero
+                <input type="checkbox" name="preferencia" value="Coletivo">Coletivo
+                <input type="checkbox" name="preferencia" value="Automóvil">Automóvil
+            </label>
+
+            <br><br>
+
+            <label> Tipo de viaje
+                <input type="checkbox" name="allInclusive" value="allInclusive">All Inclusive
+                <input type="checkbox" name="aMedida" value="aMedida">Paquete a Medida
+            </label>
+           
+            <br><br>
+
+            <label>Cantidad de adultos
+                <input type="number" name="adultos" placeholder="Cantidad de adultos aquí.." required>
+            </label>
+
+            <br><br>
+
+            <label>Cantidad de menores
+                <input type="number" name="menores" placeholder="Cantidad de menores aquí.." required>
+            </label>
+
+            <br><br>
+            
+            <label>Deja tu comntario:
+                <textarea name="comentario" id="" cols="30" rows="10">Escriba un comentario</textarea>
+            </label>
+
+            <br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+            <br><br>
+
+</body>
+</html>
