@@ -41,6 +41,9 @@ h3{
 
 main {
     padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 #navbar {
@@ -80,27 +83,22 @@ main {
     padding: 3rem 2rem;
     margin: 1rem;
     text-align: center;
+    justify-content: center;
+    background-color: rgb(192, 233, 155);
 }
 
-.item1 {
-    flex: 30px;
-    background-color: lightgreen;
-    padding: .5rem;
-
+.item {
+    padding: 2rem;
+    margin: 1.5rem;
+    text-align: center;
+    list-style: none;
+    border-top: solid 2px #000;
+    
 }
 
-.item2 {
-    flex: 70%;
-    padding: 20px;
-    background-color: rgb(130, 211, 161);
-}
-
-.item1 {
-    order: 2;
-}
-.servicios {
-    padding: 3rem 5rem;
-    background-color: rgb(128, 219, 223);
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 footer {
