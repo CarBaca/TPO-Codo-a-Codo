@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {}
+
+header {
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main {
+    padding-top: 7rem;
+}
+
+#navbar {
+    background-color: rgb(162, 170, 162);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navlink {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+
+}
+
+#tablet {
+    display: inline;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90px;
+    height: 6rem;
+}
+
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.item1 {
+    flex: 30px;
+    background-color: lightgreen;
+    padding: .5rem;
+
+}
+
+.item2 {
+    flex: 70%;
+    padding: 20px;
+    background-color: rgb(130, 211, 161);
+}
+
+.item1 {
+    order: 2;
+}
+.servicios {
+    padding: 3rem 5rem;
+    background-color: rgb(128, 219, 223);
+}
+
+footer {
+    height: 10rem;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(228, 184, 89);
+    font-size: small;
+}
