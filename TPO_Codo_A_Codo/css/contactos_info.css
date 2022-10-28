@@ -6,7 +6,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {}
+body {
+    background-color: rgb(201, 223, 241);
+}
 
 header {
     padding: 10px 30px;
