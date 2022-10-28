@@ -107,3 +107,36 @@ footer {
     background-color: rgb(228, 184, 89);
     font-size: small;
 }
+
+/*BREAKPOINT CELULARES */
+@media screen and (max-width: 375px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    .navlink {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+}
+
+/*BREAKPOINT TABLETAS*/
+@media screen and (max-width: 768px) {
+    #navbar {
+        background-color: rgb(66, 64, 230);
+    }
+
+    #tablet {
+        display: none;
+    }
+
+}
+
+/*BREAKPOINT LAPTOP*/
+@media screen and (min-width: 1024px) {
+    #row {
+        background-color: blanchedalmond;
+    }
+}
