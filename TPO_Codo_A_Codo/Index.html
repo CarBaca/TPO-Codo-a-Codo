@@ -15,27 +15,17 @@
 </head>
 
 <body>
-    <header id="header">
-        <nav id="nav">
-            <input type="checkbox" id="checkbox">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-
-            <a href="#" class="enlace">
-                <img src="./img/logo.png" alt="" class="logo">
+    <header>
+        <nav id="navbar">
+            <a href="./index.html" >
+                <img src="./img/logo.png" alt="Logo Agencia" class="logo">
             </a>
-
-            <ul id="links">
-                <li><a class="active" href="Index.html" target="_blank">Inicio</a></li>
-                <li><a href="destinos.html" target="_blank">Destinos</a></li>
-                <li><a href="paquetes.html" target="_blank">Paquetes</a></li>
-                <li><a href="contactos_info.html" target="_blank">Contacto</a></li>
-            </ul>
-
-
-
-
+            <div class="navlink">
+                <a class="nav_link" href="index.html" >Inicio</a>
+                <a class="nav_link" href="destinos.html" target="_blank">Destinos</a>
+                <a id="tablet" href="paquetes.html" target="_blank">Paquetes</a>
+                <a class="nav_link" href="contactos_info.html" target="_blank">Contacto</a>
+            </div>
         </nav>
     </header>
 
@@ -43,20 +33,42 @@
         <h1>Viajemos Juntos</h1>
 
         <div id="row">
-            <aside>
-                <h2>Información de Interés</h2>
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo temporibus, exercitationem cum
-                    reprehenderit earum doloribus natus nisi eligendi alias dignissimos laborum, ad vero omnis ea
-                    adipisci eum modi ullam corporis. </p>
+            <aside class="item item1">
+                <h3>Información de Interés</h3>
+                <section>
+                    <h3>Clima en los destinos</h3>
+                    <div class="container">
+                        <div class="temp">-°C</div>
+                        <div class="location"></div>
+                      </div>
+            
+                      <div class="container2">
+                        <div class="temp2">-°C</div>
+                        <div class="location2"></div>
+                      </div>
+                    </section>
+            
+                      <script src="weather.js"></script>
+    
             </aside>
 
-            <section>
-                <h2>Quienes Somos</h2>
-                <p> Tenemos 12 años de experiencia en el mercado turístico y miles de kilómetros acumulados. Nos
-                    especializamos en SALIDAS GRUPALES o INDIVIDUALES tanto a destinos nacionales como internacionales,
-                    con
-                    SERVICIO TODO INCLUIDO o PAQUETES ARMADOS A MEDIDA de cada uno de nuestros pasajeros.
-                    </br>Nuestra trayectoria nos confiere solidez, garantía y confiabilidad.</p>
+            <section class="item item2">
+                <article>
+                    <h2>Quienes Somos</h2>
+                    <p> Tenemos 12 años de experiencia en el mercado turístico y miles de kilómetros acumulados. Nos
+                        especializamos en SALIDAS GRUPALES o INDIVIDUALES tanto a destinos nacionales como internacionales,
+                        con
+                        SERVICIO TODO INCLUIDO o PAQUETES ARMADOS A MEDIDA de cada uno de nuestros pasajeros.
+                        </br>Nuestra trayectoria nos confiere solidez, garantía y confiabilidad.</p>
+                    </article>
+
+                    <article>
+                        <h2>Destinos</h2>
+                        <p>Organizamos tu viaje soñado a cualquier lugar del país</p>
+                        <p>Y en cualquier momento del año</p>
+                        <p>Esperamos tu consulta</p>
+                    </article>
+
             </section>
         </div>
 
@@ -66,32 +78,34 @@
                 Encontrá OPCIONES NACIONALES con diferentes fechas, cantidad de noches, alojamientos,
                 bases y excursiones incluidas. </p>
         </section>
-        <section>
-        <div class="container">
-            <div class="temp">-°C</div>
-            <div class="location"></div>
-          </div>
-
-          <div class="container2">
-            <div class="temp2">-°C</div>
-            <div class="location2"></div>
-          </div>
-        </section>
-
-          <script src="weather.js"></script>
+        
     </main>
 
     <footer>
         <section class="section">
             <h3>Redes Sociales</h3>
             <nav>
-                <a href="" target="_blank">Facebook</a>
-                <a href="" target="_blank">Instagram</a>
-                <a href="" target="_blank">Twitter</a>
-                <a href="" target="_blank">Youtube</a>
-                <a href="" target="_blank"></a>
+                <a href="https://es-la.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+        
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            
+                <a href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+        
+                <a href="https://www.youtube.com" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
             </nav>
         </section>
+
+
+
+        
 
         <section class="section">
             <h3>Información de contacto</h3>
@@ -102,7 +116,7 @@
 
         <section class="section">
             <p>Legajo 00000 EVT</p>
-            <p> Todos los derechos resevados Agencia Viajemos SA</p>
+            <p> Todos los derechos reservados Agencia Viajemos SA</p>
         </section>
 
     </footer>
