@@ -90,6 +90,25 @@ footer {
     font-size: small;
 }
 
+h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
 label, input {
     font-size: 16px;
     text-align: center;

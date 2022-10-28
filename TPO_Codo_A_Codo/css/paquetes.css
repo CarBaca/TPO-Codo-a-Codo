@@ -18,6 +18,25 @@ header {
     justify-content: center;
 }
 
+h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
 main {
     padding-top: 7rem;
 }
