@@ -78,6 +78,25 @@ main {
     order: 2;
 }
 
+h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
 /* weather api */
 .container {
     margin: 0;
