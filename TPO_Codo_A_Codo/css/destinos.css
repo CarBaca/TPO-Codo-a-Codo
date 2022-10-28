@@ -105,6 +105,23 @@ footer {
     font-size: small;
 }
 
+/*animacion con imagenes stock de Lorem Picsum */
+.animacion{
+    background-color: rgb(201, 223, 241);
+    height: 400px;
+    width: 900px;
+    animation-name: ejemimagdestino;
+    animation-duration:10s;
+    animation-delay: 1s;  
+    animation-iteration-count: infinite;  
+}
+
+@keyframes ejemimagdestino{
+    from{background-image: url('https://picsum.photos/id/13/900/500');}
+    to{background-image: url('https://picsum.photos/id/15/900/500');}
+}
+    
+
 /*BREAKPOINT CELULARES */
 @media screen and (max-width: 375px) {
     #navbar {
