@@ -20,10 +20,6 @@ header {
     justify-content: center;
 }
 
-main {
-    padding-top: 7rem;
-}
-
 #navbar {
     background-color: rgb(162, 170, 162);
     height: 100%;
@@ -54,6 +50,12 @@ main {
     height: 6rem;
 }
 
+main {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
 #row {
     display: flex;
@@ -61,27 +63,20 @@ main {
     padding: 3rem 2rem;
     margin: 1rem;
     text-align: center;
+   
 }
 
-.item1 {
-    flex: 30px;
-    background-color: lightgreen;
+.item {
+    background-color: rgb(192, 233, 155);
+    border: solid 2px #000;
+    padding: 2rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.destino {
+    border: solid 1px #000;
     padding: .5rem;
-
-}
-
-.item2 {
-    flex: 70%;
-    padding: 20px;
-    background-color: rgb(130, 211, 161);
-}
-
-.item1 {
-    order: 2;
-}
-.servicios {
-    padding: 3rem 5rem;
-    background-color: rgb(128, 219, 223);
 }
 
 h1{
