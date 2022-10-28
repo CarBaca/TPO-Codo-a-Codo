@@ -89,3 +89,22 @@ footer {
     background-color: rgb(228, 184, 89);
     font-size: small;
 }
+
+label, input {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: solid;
+}
+
+input[type="text"], input[type="number"],  input[type="email"], input[type="password"], input[type="date"],
+input[type="comntario"],input [type="radio"]  input[type="checbox"] {
+    width: 15%;
+    text-align: center;
+    padding: 2px 1px;
+    margin: 1px;
+    display: inline-block;
+    border: solid;
+    border-radius: 1px;
+    box-sizing: border-box;
+    color: rgb(14, 14, 15);
+}
