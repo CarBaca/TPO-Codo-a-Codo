@@ -109,23 +109,36 @@ h3{
     color: black;
     text-align: center;
     font-family: 'Lora', serif;
+    font-size: 35px;
 }
 
-label, input {
-    font-size: 16px;
+label{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: solid;
+}
+input{
+    font-size: 15px;
     text-align: center;
     text-decoration: solid;
 }
 
 input[type="text"], input[type="number"],  input[type="email"], input[type="password"], input[type="date"],
-input[type="comntario"],input [type="radio"]  input[type="checbox"] {
-    width: 15%;
+input[type="comntario"],input [type="radio"]  input[type="checbox"] input[type=submit] input[type=reset] input[type=textArea] {
+    width: 70%;
     text-align: center;
-    padding: 2px 1px;
-    margin: 1px;
+    padding: 1vw;
     display: inline-block;
-    border: solid;
-    border-radius: 1px;
+    border: 1vw;
+    border-radius: 4px;
     box-sizing: border-box;
     color: rgb(14, 14, 15);
+}
+textarea{
+    width: 60%;
+}
+#formulario{
+    border-radius: 5px;
+    padding: 2%;
+    margin:1% 20%;
 }
