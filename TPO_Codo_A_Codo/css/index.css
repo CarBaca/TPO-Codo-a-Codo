@@ -18,10 +18,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-main {
-    padding-top: 7rem;
+    z-index: 1;
 }
 
 #navbar {
@@ -30,7 +27,6 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
 }
 
 .navlink {
@@ -40,11 +36,6 @@ main {
     align-items: center;
     justify-content: space-around;
     width: 60%;
-
-}
-
-#tablet {
-    display: inline;
 }
 
 .logo {
@@ -54,6 +45,9 @@ main {
     height: 6rem;
 }
 
+main {
+    padding-top: 9rem;
+}
 
 #row {
     display: flex;
@@ -84,20 +78,24 @@ main {
     margin: 1rem;
 }
 
-h1{
+article {
+    margin: 2rem;
+}
+
+h1 {
     color: black;
     font-size: 40px;
     text-align: center;
     font-family: 'Lora', serif;
 }
 
-h2{
+h2 {
     color: black;
     text-align: center;
     font-family: 'Lora', serif;
 }
 
-h3{
+h3 {
     color: black;
     text-align: center;
     font-family: 'Lora', serif;
@@ -105,7 +103,7 @@ h3{
 
 /* weather api */
 .container {
-    margin: 0;
+    margin: 40px;
     padding: 0;
     box-sizing: border-box;
     height: 8rem;
@@ -118,7 +116,7 @@ h3{
 }
 
 .container2 {
-    margin: 0;
+    margin: 40px;
     padding: 0;
     box-sizing: border-box;
     height: 8rem;
@@ -140,24 +138,47 @@ h3{
     margin: 1rem;
 }
 
-.img {
+.destinos {
+    margin: 2rem;
+    padding: 1rem;
     display: flex;
-    display: wrap;
-    flex-direction: row;
-    margin: .5rem;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.img img {
-    margin: .5rem;
-    height: 15rem;
-    width: 15rem;
+.contenedor4, .contenedor5 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.paquetes {
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 17rem;
+    width: 24rem;
+    margin: 0.5rem;
     border-radius: 10%;
 }
 
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-shadow: 7px 8px 6px blue;
+    background-color: transparent;
+}
 
 footer {
-    height: 10rem;
+    height: 11rem;
     padding: 20px;
     text-align: center;
     background-color: rgb(228, 184, 89);
@@ -166,38 +187,123 @@ footer {
 
 /*BREAKPOINT CELULARES */
 @media screen and (max-width: 375px) {
+    body {
+        width: 100;
+    }
+
+    header {
+        margin: 0;
+    }
+
     #navbar {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    h1 {
+        text-indent: 5.5rem;
     }
 
     .navlink {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #row {
+        margin-top: 0;
+        width: 125%;
+    }
+
+    .item3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .servicios {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 0 48px;
+    }
+
+    .destinos {
         flex-direction: column;
         flex-wrap: wrap;
+    }
 
+    .paquetes {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    img {
+        height: 14rem;
+        width: 17rem;
+    }
+
+    footer {
+        width: 135%;
+        margin-left: 1rem;
     }
 }
 
+
 /*BREAKPOINT TABLETAS*/
 @media screen and (max-width: 768px) {
-    #navbar {
-        background-color: rgb(66, 64, 230);
+    header {
+        width: 100%;
+        margin: 0 ;
     }
 
-    #tablet {
-        display: none;
+    #navbar {
+        margin-left: .3rem;
+        width: 94.5%;
     }
-    .img {
+
+    #row {
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .servicios {
+        width: 87.5%;
+        margin-left:3rem;
+    }
+
+    .item3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .destinos {
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
     }
 
+    .paquetes {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    img {
+        height: 25rem;
+        width: 30rem;
+    }
 }
 
 /*BREAKPOINT LAPTOP*/
 @media screen and (min-width: 1024px) {
     #row {
         background-color: blanchedalmond;
+    }
+
+    img {
+        height: 13rem;
+        width: 15rem;
     }
 
 }
